@@ -1,5 +1,5 @@
 # Master Data Science & AI
-Exercises and proyects from Master Data Science & AI by [Evolve Academy](https://evolveacademy.es/)
+Exercises and proyects from "Master Data Science & AI" by [Evolve Academy](https://evolveacademy.es/)
 
 # What's this Master about?
 - Introduction to Data Science (AI, Machine Learning, Deep Learning)
