@@ -9,3 +9,14 @@
   - String, text, character; numeric (int/float); date/time; boolean
 - Types of relations
   - one-to-one, one-to-many and many-to-many
+- Data lineage
+- SQL sentences
+    - DDL, DML
+- Docstring, comments
+- SELECT
+  - *, LIMIT; FROM
+- CREATE TABLE
+- ORDER BY
+- COUNT
+
+# Basic exercises, operators
