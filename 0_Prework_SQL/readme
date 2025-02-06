@@ -1,0 +1,11 @@
+# Introduction to SQL
+- Tables, rows, columns
+  - View, virtual table, schema, PRIMARY KEY - FOREIGN KEY, QUERY
+- Collect data
+- Data analysis
+- Relational database (RDB)
+  - Microsoft SQL Server, Oracle Database, Oracle MySQL, Teradata, PostgreSQL; SQLite
+- Data type
+  - String, text, character; numeric (int/float); date/time; boolean
+- Types of relations
+  - one-to-one, one-to-many and many-to-many
