@@ -20,3 +20,26 @@
 - COUNT
 
 # Basic exercises, operators
+- WHERE
+- AND/OR
+- IN
+- BETWEEN
+- LIKE
+- NULL, NOT (IS NULL, IS NOT NULL)
+- Expressions
+  -  +, -, *, /, %; RTRIM(), LTRIM(), SUBSTR(), LENGTH(), UPPER(), LOWER(), REPLACE()
+- Mathematical functions
+    - ROUND
+    - RANDOM
+    - DATE (JULIANDAY, STRFTIME)
+- CAST
+- DISTINCT
+- Aggregation functions
+  - COUNT(), SUM(), AVG(), MIN(), MAX()
+- GROUP BY
+- HAVING
+- CASE-ELSE
+
+# Joins, Queries and ERP
+- JOIN (INNER, FULL OUTER, LEFT, RIGHT)
+- ERP (Enterprise Resource Planning)
