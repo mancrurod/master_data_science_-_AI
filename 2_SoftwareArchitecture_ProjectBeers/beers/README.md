@@ -1,32 +1,47 @@
-# Proyecto de análisis de cervezas
+# Beers Project
 
-(Test project)
+## Overview
+This project is focused on analyzing and visualizing data related to various beers. The dataset includes information such as beer names, styles, breweries, and other attributes.
 
-Este proyecto tiene como objetivo analizar y visualizar datos de diferentes cervezas y sus características. Utilizamos un conjunto de datos que contiene información sobre varias cervezas, incluyendo su estilo, contenido de alcohol (ABV), amargor (IBU), y más.
+## Project Structure
+The project is organized into the following directories and files:
 
-## Estructura del proyecto
+- `data/`: Contains the dataset files.
+  - `beers.csv`: The main dataset containing information about different beers.
+- `src/`: Contains the source code for data processing and visualization.
+  - `exploration.py`: Scripts for exploring the dataset.
+  - `transformation.py`: Scripts for transforming the dataset.
+  - `visualization.py`: Scripts for visualizing the data.
+- `main.py`: The main script to run the project.
+- `testing.ipynb`: Jupyter notebook for testing and experimenting with the data.
 
-- **data/**: Contiene el archivo `beers.csv` con los datos de las cervezas.
-- **src/**: Contiene los scripts de Python para la transformación, exploración y visualización de los datos.
-  - `transformation.py`: Script para transformar y limpiar los datos.
-  - `exploration.py`: Script para explorar los datos y realizar análisis descriptivos.
-  - `visualization.py`: Script para generar visualizaciones de los datos.
-- **main.py**: Script principal para ejecutar el análisis completo.
-- **testing.ipynb**: Notebook de Jupyter para pruebas y desarrollo interactivo.
+## Getting Started
+To get started with the project, follow these steps:
 
-## Requisitos
-
-- Python 3.8 o superior
-- Bibliotecas de Python: pandas, matplotlib, seaborn, numpy
-
-## Cómo ejecutar
-
-1. Clonar el repositorio.
-2. Instalar las dependencias necesarias:
+1. Clone the repository to your local machine.
+2. Ensure you have Python installed (preferably version 3.6 or higher).
+3. Install the required dependencies using pip:
    ```bash
-   pip install pandas matplotlib seaborn numpy
+   pip install -r requirements.txt
    ```
-3. Ejecutar el script principal:
+   Alternatively, you can create a conda environment using the provided `environment.yml` file:
+   ```bash
+   conda env create -f environment.yml
+   conda activate beers_project
+   ```
+4. Run the main script to process and visualize the data:
    ```bash
    python main.py
    ```
+
+## Data Exploration
+The `exploration.py` script contains functions to load and explore the dataset. You can use this script to get an initial understanding of the data.
+
+## Data Transformation
+The `transformation.py` script includes functions to clean and transform the dataset. This is useful for preparing the data for analysis and visualization.
+
+## Data Visualization
+The `visualization.py` script provides functions to create various visualizations of the data. This helps in understanding trends and patterns in the dataset.
+
+## Testing
+The `testing.ipynb` notebook is used for testing and experimenting with the data. You can use this notebook to try out different analyses and visualizations interactively.
